@@ -1,0 +1,8 @@
+{
+  "name": "la8-v2-cmd-2",
+  "app_id": "c4fb9fa4",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
