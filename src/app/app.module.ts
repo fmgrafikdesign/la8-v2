@@ -7,6 +7,9 @@ import { MyApp } from './app.component';
 // Import image loader for caching
 import { IonicImageLoader } from "ionic-image-loader";
 
+// Import native audio
+import { NativeAudio } from '@ionic-native/native-audio';
+
 import { BilderAuswahlPage } from '../pages/bilder-auswahl/bilder-auswahl';
 import { ContactPage } from '../pages/themenauswahl/themenauswahl';
 import { HomePage } from '../pages/home/home';
@@ -43,7 +46,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    NativeAudio
   ]
 })
 export class AppModule {}

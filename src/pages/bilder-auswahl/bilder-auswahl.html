@@ -8,8 +8,8 @@
 
 <ion-content>
 <h2 padding text-center>Welches Bild möchten Sie betrachten?</h2>
-  <ion-list>
-    <ion-item *ngFor="let bild of bilder" (click)="test(bild)">
+  <ion-list no-lines>
+    <ion-item *ngFor="let bild of bilder" (click)="navigateToSingle(bild)">
       <img-loader class="w-100 d-block bild-auswahl" [src]="bild.url" useImg></img-loader>
       </ion-item>
   </ion-list>

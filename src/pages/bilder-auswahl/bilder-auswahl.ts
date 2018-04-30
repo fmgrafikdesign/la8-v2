@@ -18,11 +18,11 @@ import { BilderSinglePage } from '../bilder-single/bilder-single';
 export class BilderAuswahlPage {
 
   bilder: any;
-  test: any;
+  navigateToSingle: any;
 
   constructor(public navCtrl: NavController, public http: Http) {
 
-    this.test = (bild) => {
+    this.navigateToSingle = (bild) => {
       this.navCtrl.push(BilderSinglePage, {
         bild: bild
       });
