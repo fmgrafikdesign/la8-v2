@@ -5,6 +5,9 @@ import { NavController } from 'ionic-angular';
 import { Http } from "@angular/http";
 import 'rxjs/add/operator/map';
 
+// Import image caching
+import { IonicImageLoader } from "ionic-image-loader";
+
 // Import bilder-single Page
 import { BilderSinglePage } from '../bilder-single/bilder-single';
 
@@ -25,11 +28,11 @@ export class BilderAuswahlPage {
       });
     };
 
-    this.http.get('https://hbkapp.fmgrafikdesign.de/audioguides/2018-03/bilder.json').map(res => res.json()).subscribe(data => {
+    this.http.get('http://cdn.fmgrafikdesign.de/la8/latest/bilder.json').map(res => res.json()).subscribe(data => {
       this.bilder = data;
       console.log(this.bilder);
 
-      /* TODO Cash results on storage, preferrably with images */
+      /* TODO Cash results on storage, preferably with images */
     })
   }
 

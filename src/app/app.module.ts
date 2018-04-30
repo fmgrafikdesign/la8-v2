@@ -4,6 +4,9 @@ import { HttpModule} from "@angular/http";
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+// Import image loader for caching
+import { IonicImageLoader } from "ionic-image-loader";
+
 import { BilderAuswahlPage } from '../pages/bilder-auswahl/bilder-auswahl';
 import { ContactPage } from '../pages/themenauswahl/themenauswahl';
 import { HomePage } from '../pages/home/home';
@@ -25,7 +28,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    HttpModule
+    HttpModule,
+    IonicImageLoader.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
