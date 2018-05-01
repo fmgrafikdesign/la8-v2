@@ -4,6 +4,9 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
 // Import native audio
 import {NativeAudio} from "@ionic-native/native-audio";
 
+// Import media
+import { Media, MediaObject } from "@ionic-native/media";
+
 /**
  * Generated class for the BilderSinglePage page.
  *
@@ -22,13 +25,42 @@ export class BilderSinglePage {
   file: any;
   play: any;
   pause: any;
+  stop: any;
   unload: any;
   interviews: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private nativeAudio: NativeAudio) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private nativeAudio: NativeAudio, private media: Media) {
     console.log(this.navParams.get('bild'));
     this.bild = this.navParams.get('bild');
     this.interviews = this.bild.audio;
+
+
+
+    this.play = (url) => {
+      this.file = this.media.create(url);
+
+      this.file.onSuccess.subscribe( () => {
+        console.log('successful');
+        this.file.play();
+      });
+
+      this.file.onError.subscribe(error => console.log('Error!', error));;
+    };
+
+    this.pause = () => {
+      this.file.pause();
+    };
+
+    this.stop = () => {
+      this.file.stop();
+    };
+
+    this.unload = () => {
+      this.file.release();
+    };
+
+    /*
+    // Commenting this out because native Audio doesn't support web urls. Not going to put 70MB audio into the app.
 
     // Load & Play audio file
     this.play = (url) => {
@@ -67,6 +99,8 @@ export class BilderSinglePage {
     this.unload = () => {
       this.nativeAudio.unload('interview');
     }
+
+    */
 
   }
 

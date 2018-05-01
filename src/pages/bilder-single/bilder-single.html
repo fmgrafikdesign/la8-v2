@@ -20,6 +20,9 @@
     <ion-item *ngFor="let interview of interviews">
       {{interview.name}} <small>(Alter: {{interview.alter}})</small>
       <button ion-button item-end color="dark" (click)="play(interview.weburl)"><ion-icon name="play"></ion-icon></button>
+      <button ion-button color="dark" (click)="pause">pause</button>
+      <button ion-button color="dark" (click)="stop">stop</button>
+      <button ion-button color="dark" (click)="stop">unload</button>
     </ion-item>
   </ion-list>
 </ion-content>

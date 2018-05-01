@@ -10,6 +10,9 @@ import { IonicImageLoader } from "ionic-image-loader";
 // Import native audio
 import { NativeAudio } from '@ionic-native/native-audio';
 
+// Import media, because native audio does not support web urls
+import { Media, MediaObject } from '@ionic-native/media';
+
 // Import ionic pro features
 import { Pro } from '@ionic/pro';
 
@@ -80,7 +83,8 @@ export class MyErrorHandler implements ErrorHandler {
     SplashScreen,
     IonicErrorHandler,
     [{provide: ErrorHandler, useClass: IonicErrorHandler}],
-    NativeAudio
+    NativeAudio,
+    Media
   ]
 })
 export class AppModule {}
