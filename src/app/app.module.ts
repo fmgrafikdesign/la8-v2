@@ -22,6 +22,7 @@ import { ContactPage } from '../pages/themenauswahl/themenauswahl';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { BilderSinglePage } from "../pages/bilder-single/bilder-single";
+import { TopicsSinglePage } from "../pages/topics-single/topics-single";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -55,7 +56,8 @@ export class MyErrorHandler implements ErrorHandler {
     ContactPage,
     HomePage,
     TabsPage,
-    BilderSinglePage
+    BilderSinglePage,
+    TopicsSinglePage
   ],
   imports: [
     BrowserModule,
@@ -70,7 +72,8 @@ export class MyErrorHandler implements ErrorHandler {
     ContactPage,
     HomePage,
     TabsPage,
-    BilderSinglePage
+    BilderSinglePage,
+    TopicsSinglePage
   ],
   providers: [
     StatusBar,

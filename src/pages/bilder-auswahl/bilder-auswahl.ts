@@ -1,15 +1,15 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {NavController} from 'ionic-angular';
 
 // Import http and map Module
-import { Http } from "@angular/http";
+import {Http} from "@angular/http";
 import 'rxjs/add/operator/map';
 
 // Import image caching
-import { IonicImageLoader } from "ionic-image-loader";
+import {IonicImageLoader} from "ionic-image-loader";
 
 // Import bilder-single Page
-import { BilderSinglePage } from '../bilder-single/bilder-single';
+import {BilderSinglePage} from '../bilder-single/bilder-single';
 
 @Component({
   selector: 'page-about',
@@ -28,12 +28,12 @@ export class BilderAuswahlPage {
       });
     };
 
-    this.http.request('assets/fixtures/bilder.json').map(res => res.json()).subscribe(data => {
-      this.bilder = data;
-      console.log(this.bilder);
-
-      /* TODO Cash results on storage, preferably with images */
-    });
+    this.http.request('assets/fixtures/bilder.json')
+      .map(res => res.json())
+      .subscribe(data => {
+        this.bilder = data;
+      })
+    ;
 
   }
 
