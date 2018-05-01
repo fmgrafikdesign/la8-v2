@@ -20,9 +20,39 @@
     <ion-item *ngFor="let interview of interviews">
       {{interview.name}} <small>(Alter: {{interview.alter}})</small>
       <button ion-button item-end color="dark" (click)="play(interview.weburl)"><ion-icon name="play"></ion-icon></button>
-      <button ion-button color="dark" (click)="pause">pause</button>
-      <button ion-button color="dark" (click)="stop">stop</button>
-      <button ion-button color="dark" (click)="stop">unload</button>
+
     </ion-item>
+  </ion-list>
+
+  <!-- My implementation -->
+  <ion-list>
+    <audio-track #audio *ngFor="let track of interviews"  [track]="track" (onFinish)="onTrackFinished($event)">
+      <ion-item>
+        <ion-thumbnail item-left>
+          <img src="{{audio.art}}">
+          <audio-track-play dark [audioTrack]="audio"><ion-spinner></ion-spinner></audio-track-play>
+        </ion-thumbnail>
+        <div item-content style="width:100%">
+          <p>{{audio.name}} {{audio.title}} <small>(Alter: {{audio.alter}})</small></p>
+          <audio-track-progress-bar dark duration progress [audioTrack]="audio" [ngStyle]="{visibility: audio.completed > 0 ? 'visible' : 'hidden'}"></audio-track-progress-bar>
+        </div>
+      </ion-item>
+    </audio-track>
+  </ion-list>
+
+  <!-- Example implementation -->
+  <ion-list>
+    <audio-track #audio *ngFor="let track of myTracks"  [track]="track" (onFinish)="onTrackFinished($event)">
+      <ion-item>
+        <ion-thumbnail item-left>
+          <img src="{{audio.art}}">
+          <audio-track-play dark [audioTrack]="audio"><ion-spinner></ion-spinner></audio-track-play>
+        </ion-thumbnail>
+        <div item-content style="width:100%">
+          <p><strong>{{audio.title}}</strong> ⚬ <em>{{audio.artist}}</em></p>
+          <audio-track-progress-bar dark duration progress [audioTrack]="audio" [ngStyle]="{visibility: audio.completed > 0 ? 'visible' : 'hidden'}"></audio-track-progress-bar>
+        </div>
+      </ion-item>
+    </audio-track>
   </ion-list>
 </ion-content>

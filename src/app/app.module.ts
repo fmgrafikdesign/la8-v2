@@ -13,6 +13,16 @@ import { NativeAudio } from '@ionic-native/native-audio';
 // Import media, because native audio does not support web urls
 import { Media, MediaObject } from '@ionic-native/media';
 
+// Import inoic-audio, because media doesn't work at all. Shucks.
+import { IonicAudioModule, WebAudioProvider, CordovaMediaProvider, defaultAudioProviderFactory } from 'ionic-audio';
+
+/**
+ * Sample custom factory function to use with ionic-audio
+ */
+export function AudioProviderFactory() {
+  return (window.hasOwnProperty('cordova')) ? new CordovaMediaProvider() : new WebAudioProvider();
+}
+
 // Import ionic pro features
 import { Pro } from '@ionic/pro';
 
@@ -66,7 +76,8 @@ export class MyErrorHandler implements ErrorHandler {
     BrowserModule,
     IonicModule.forRoot(MyApp),
     HttpModule,
-    IonicImageLoader.forRoot()
+    IonicImageLoader.forRoot(),
+    IonicAudioModule.forRoot(defaultAudioProviderFactory)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
