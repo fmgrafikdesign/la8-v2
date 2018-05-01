@@ -1,0 +1,147 @@
+[
+  {
+    "id": "0",
+    "titel": "Künstler",
+    "filename": "kuenstler.jpg",
+    "url": "http://cdn.fmgrafikdesign.de/la8/latest/kuenstler/kuenstler.jpg",
+    "audio": [
+      {
+        "id": "0",
+        "name": "Ehem. Stadtrat",
+        "alter": "69",
+        "url": "audio/1-kuenstlerin.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/kuenstler/ehem-stadtrat-69.mp3"
+      },
+      {
+        "id": "1",
+        "name": "Grafiker",
+        "alter": "25",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/kuenstler/grafiker-25.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Theaterfrau",
+        "alter": "55",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/kuenstler/theaterfrau-55.mp3"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "titel": "Flo",
+    "filename": "flo.jpg",
+    "url": "http://cdn.fmgrafikdesign.de/la8/latest/flo/flo.jpg",
+    "audio": [
+      {
+        "id": "0",
+        "name": "Kulturwissenschaftlerin",
+        "alter": "32",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/flo/kulturwissenschaftlerin-32.mp3"
+      },
+      {
+        "id": "1",
+        "name": "Schülerinnen",
+        "alter": "18",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/flo/schuelerinnen-18.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Theaterfrau",
+        "alter": "55",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/flo/theaterfrau-55.mp3"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "titel": "Familie",
+    "filename": "familie.jpg",
+    "url": "http://cdn.fmgrafikdesign.de/la8/latest/familie/familie.jpg",
+    "audio": [
+      {
+        "id": "0",
+        "name": "Physiker",
+        "alter": "82",
+        "url": "audio/1-kuenstlerin.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/familie/physiker-82.mp3"
+      },
+      {
+        "id": "1",
+        "name": "Kulturwissenschaftlerin",
+        "alter": "32",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/familie/kulturwissenschaftlerin-32.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Schülerinnen",
+        "alter": "18",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/familie/schuelerinnen-18.mp3"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "titel": "Fleischhauer",
+    "filename": "fleischhauer.jpg",
+    "url": "http://cdn.fmgrafikdesign.de/la8/latest/fleischhauer/fleischhauer.jpg",
+    "audio": [
+      {
+        "id": "0",
+        "name": "Bürger aus Baden Baden",
+        "alter": "",
+        "url": "audio/1-kuenstlerin.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/fleischhauer/buerger-aus-baden-baden.mp3"
+      },
+      {
+        "id": "1",
+        "name": "Künstlerin",
+        "alter": "52",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/fleischhauer/kuenstlerin-52.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Kulturwissenschaftlerin",
+        "alter": "32",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/fleischhauer/kulturwissenschaftlerin-32.mp3"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "titel": "Gewicht",
+    "filename": "gewicht.jpg",
+    "url": "http://cdn.fmgrafikdesign.de/la8/latest/gewicht/gewicht.jpg",
+    "audio": [
+      {
+        "id": "0",
+        "name": "Bürger aus Baden Baden",
+        "alter": "",
+        "url": "audio/1-kuenstlerin.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/gewicht/buerger-aus-baden-baden.mp3"
+      },
+      {
+        "id": "1",
+        "name": "Künstler",
+        "alter": "25",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/gewicht/grafiker-25.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Schüler",
+        "alter": "9",
+        "url": "audio/2-schuelerinnen.mp3",
+        "weburl": "http://hbkapp.fmgrafikdesign.de/audioguides/2018-03/gewicht/schueler-9.mp3"
+      }
+    ]
+  }
+]

@@ -28,12 +28,13 @@ export class BilderAuswahlPage {
       });
     };
 
-    this.http.get('http://cdn.fmgrafikdesign.de/la8/latest/bilder.json').map(res => res.json()).subscribe(data => {
+    this.http.request('assets/fixtures/bilder.json').map(res => res.json()).subscribe(data => {
       this.bilder = data;
       console.log(this.bilder);
 
       /* TODO Cash results on storage, preferably with images */
-    })
+    });
+
   }
 
 }
