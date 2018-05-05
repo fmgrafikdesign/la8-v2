@@ -1,14 +1,37 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Startseite</ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content class="start-screen" padding text-center>
+  <div class="title-top">
+    <h1 class="title">Gediegener Spott</h1>
+    <p class="subtitle">
+      Bilder aus Krähwinkel
+    </p>
+  </div>
+  <div class="bottom">
+    <!--
+    <button ion-button outline color="dark" (click)="playSelectedTrack(Tutorial)">Was mache ich mit dieser App?</button>
+    -->
+    <div class="tutorial">
 
-<ion-content padding text-center>
-  <h2>Gediegener Spott</h2>
-  <p>
-    Bilder aus Krähwinkel
+    <audio-track #audio [track]="(Tutorial)">
+      <ion-item class="no-background" padding>
+        <audio-track-play item-left [audioTrack]="audio"><ion-spinner></ion-spinner></audio-track-play>
+        <h3><strong>{{audio.title}}</strong></h3>
+
+
+      </ion-item>
+      <audio-track-progress-bar [class]="(audio.isPlaying) ? 'fade-opacity full-opacity' : 'fade-opacity no-opacity'"
+                                duration progress [audioTrack]="audio"
+      ></audio-track-progress-bar>
+    </audio-track>
+
+    </div>
+    <!--
+
+    -->
+  </div>
+<!--
+  <div class="footer"><p text-center>
+    <small>[DEBUG] 0.2.0 - overhauled tutorial playback ui</small>
   </p>
-  <button ion-button outline>Was mache ich mit dieser App?</button>
-  <p text-center><small>0.0.4 - new audio plugin</small></p>
+  </div>
+  -->
 </ion-content>

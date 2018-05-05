@@ -14,10 +14,33 @@
 
 
 <ion-content>
+  <!--
 <ion-list>
   <ion-item *ngFor="let topic of topics">
-    {{topic.id}}. {{topic.name}}
+    {{topic.id}}. {{topic.title}}
     <button ion-button item-end color="dark" (click)="play(topic.id)"><ion-icon name="play"></ion-icon></button>
   </ion-item>
 </ion-list>
+-->
+
+  <ion-list>
+    <audio-track #audio *ngFor="let track of topics" [track]="track">
+      <ion-item>
+        <p><strong>{{audio.title}}</strong>
+          <small *ngIf="track.alter">(Alter: {{track.alter}})</small>
+        </p>
+        <audio-track-progress-bar [class]="(audio.isPlaying) ? 'fade-opacity full-opacity' : 'd-none'"
+                                  duration progress [audioTrack]="audio"
+        ></audio-track-progress-bar>
+
+        <button ion-button icon-only item-end color="dark">
+          <audio-track-play dark [audioTrack]="audio" (click)="pauseAllTracks()">
+            <ion-spinner></ion-spinner>
+          </audio-track-play>
+        </button>
+      </ion-item>
+    </audio-track>
+
+  </ion-list>
+
 </ion-content>

@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-// Import native audio
-import {NativeAudio} from "@ionic-native/native-audio";
+// Import media
+import { AudioProviderFactory } from "../../app/app.module";
+import {AudioProvider, WebAudioTrack} from "ionic-audio";
 
 /**
  * Generated class for the TopicsSinglePage page.
@@ -19,58 +20,62 @@ import {NativeAudio} from "@ionic-native/native-audio";
 export class TopicsSinglePage {
 
   topics: any;
+  info: any;
   play: any;
   pause: any;
+  stop: any;
   unload: any;
-  info: any;
+  interviews: any;
+  currentindex: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private nativeAudio: NativeAudio) {
+  allTracks: any[];
+  selectedTrack: any;
 
-    this.info = this.navParams.get('info');
+  constructor(public navCtrl: NavController, public navParams: NavParams, private _audioProvider: AudioProvider) {
     this.topics = this.navParams.get('topics');
+    console.log(this.topics);
+    this.info = this.navParams.get('info');
 
-    // Load & Play audio file
-    this.play = (url) => {
-      this.nativeAudio.preloadComplex('topic', url, 1, 1, 0).then(
-        (e) => {
-          console.log("looks good");
-          console.log(e);
+    // Prepare json data for audio provider factory
+    // - set src
+    // - set title
 
-          this.nativeAudio.play('topic');
+    let base = 'http://cdn.fmgrafikdesign.de/la8/latest/topics/';
+    this.topics.forEach((topic) => {
+      topic.preload = 'metadata';
 
-
-        }, (e) => {
-          console.log('something went wrong:');
-          console.log(e);
-        }
-      )
-    };
-
-    // Pause audio file
-    this.pause = () => {
-      this.nativeAudio.stop('topic').then(
-        (e) => {
-          console.log("stopped playing:");
-          console.log(e);
-
-          this.nativeAudio.play('topic');
-
-
-        }, (e) => {
-          console.log('something went wrong:');
-          console.log(e);
-        }
-      )
-    };
-
-    this.unload = () => {
-      this.nativeAudio.unload('topic');
-    }
-
+      // src: base + language + id + file extension
+      // example: http://cdn.fmgrafikdesign.de/la8/latest/topics/english/1.mp3
+      topic.src = base + this.info.language + '/' + topic.id + '.mp3';
+    });
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TopicsSinglePage');
+  ngAfterContentInit() {
+    // get all tracks managed by AudioProvider so we can control playback via the API
+    this.allTracks = this._audioProvider.tracks;
+    //console.log(this.allTracks);
+  }
+
+  // Pause all tracks, starting a new one is handled by the audio-track-play component
+  pauseAllTracks() {
+    this.allTracks.forEach((track) => {
+      if(track.isPlaying) {
+        track.pause();
+      }
+      //console.log(track);
+    });
+  }
+
+  // Pauses the currently active track
+  pauseSelectedTrack() {
+    // use AudioProvider to control selected track
+    console.log('pausing track: ', this._audioProvider.current);
+    this._audioProvider.pause();
+  }
+
+  // Stop tracks on leaving view
+  ionViewWillLeave() {
+    this.pauseAllTracks();
   }
 
 }

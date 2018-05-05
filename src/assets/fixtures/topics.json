@@ -7,51 +7,51 @@
     "topics" : [
       {
         "id": "1",
-        "name": "Einführung"
+        "title": "Einführung"
       },
       {
         "id": "2",
-        "name": "Wo liegt Krähwinkel?"
+        "title": "Wo liegt Krähwinkel?"
       },
       {
         "id": "3",
-        "name": "Der Friedrich Campe Verlag"
+        "title": "Der Friedrich Campe Verlag"
       },
       {
         "id": "4",
-        "name": "Die Künstler - Voltz und seine Kollegen"
+        "title": "Die Künstler - Voltz und seine Kollegen"
       },
       {
         "id": "5",
-        "name": ""
+        "title": ""
       },
       {
         "id": "6",
-        "name": ""
+        "title": ""
       },
       {
         "id": "7",
-        "name": ""
+        "title": ""
       },
       {
         "id": "8",
-        "name": ""
+        "title": ""
       },
       {
         "id": "9",
-        "name": ""
+        "title": ""
       },
       {
         "id": "10",
-        "name": ""
+        "title": ""
       },
       {
         "id": "11",
-        "name": ""
+        "title": ""
       },
       {
         "id": "12",
-        "name": ""
+        "title": ""
       }
     ]
   },
@@ -63,51 +63,51 @@
     "topics" : [
       {
         "id": "1",
-        "name": "Introduction"
+        "title": "Introduction"
       },
       {
         "id": "2",
-        "name": "Òu çe trouve Krähwinkel?"
+        "title": "Òu çe trouve Krähwinkel?"
       },
       {
         "id": "3",
-        "name": "Les éditions Friedrich Campe"
+        "title": "Les éditions Friedrich Campe"
       },
       {
         "id": "4",
-        "name": "Les artistes - Voltz et ses collègues"
+        "title": "Les artistes - Voltz et ses collègues"
       },
       {
         "id": "5",
-        "name": ""
+        "title": ""
       },
       {
         "id": "6",
-        "name": ""
+        "title": ""
       },
       {
         "id": "7",
-        "name": ""
+        "title": ""
       },
       {
         "id": "8",
-        "name": ""
+        "title": ""
       },
       {
         "id": "9",
-        "name": ""
+        "title": ""
       },
       {
         "id": "10",
-        "name": ""
+        "title": ""
       },
       {
         "id": "11",
-        "name": ""
+        "title": ""
       },
       {
         "id": "12",
-        "name": ""
+        "title": ""
       }
     ]
   },
@@ -119,51 +119,51 @@
     "topics" : [
       {
         "id": "1",
-        "name": "Introduction"
+        "title": "Introduction"
       },
       {
         "id": "2",
-        "name": "Where exactly is Krähwinkel?"
+        "title": "Where exactly is Krähwinkel?"
       },
       {
         "id": "3",
-        "name": "Friedrich Campe Verlag"
+        "title": "Friedrich Campe Verlag"
       },
       {
         "id": "4",
-        "name": "The Artists - Voltz and his Colleagues"
+        "title": "The Artists - Voltz and his Colleagues"
       },
       {
         "id": "5",
-        "name": ""
+        "title": ""
       },
       {
         "id": "6",
-        "name": ""
+        "title": ""
       },
       {
         "id": "7",
-        "name": ""
+        "title": ""
       },
       {
         "id": "8",
-        "name": ""
+        "title": ""
       },
       {
         "id": "9",
-        "name": ""
+        "title": ""
       },
       {
         "id": "10",
-        "name": ""
+        "title": ""
       },
       {
         "id": "11",
-        "name": ""
+        "title": ""
       },
       {
         "id": "12",
-        "name": ""
+        "title": ""
       }
     ]
   }
