@@ -90,4 +90,6 @@
         <variable name="UPDATE_METHOD" value="auto" />
     </plugin>
     <plugin name="cordova-plugin-media" spec="^5.0.2" />
+    <engine name="android" spec="~7.0.0" />
+    <engine name="ios" spec="~4.5.4" />
 </widget>
