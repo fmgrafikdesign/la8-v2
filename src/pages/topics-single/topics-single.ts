@@ -41,12 +41,14 @@ export class TopicsSinglePage {
     // - set title
 
     let base = 'http://cdn.fmgrafikdesign.de/la8/latest/topics/';
+    console.log(this.topics);
     this.topics.forEach((topic) => {
       topic.preload = 'metadata';
 
       // src: base + language + id + file extension
       // example: http://cdn.fmgrafikdesign.de/la8/latest/topics/english/1.mp3
-      topic.src = base + this.info.language + '/' + topic.id + '.mp3';
+
+      topic.src = base + this.info.language + '/' + topic.uid + '.mp3';
     });
   }
 
