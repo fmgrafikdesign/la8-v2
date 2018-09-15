@@ -33,15 +33,15 @@ export class TopicsSinglePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private _audioProvider: AudioProvider) {
     this.topics = this.navParams.get('topics');
-    console.log(this.topics);
+    //console.log(this.topics);
     this.info = this.navParams.get('info');
 
     // Prepare json data for audio provider factory
     // - set src
     // - set title
 
-    let base = 'http://cdn.fmgrafikdesign.de/la8/latest/topics/';
-    console.log(this.topics);
+    let base = 'https://cdn.fmgrafikdesign.de/la8/latest/topics/';
+    //console.log(this.topics);
     this.topics.forEach((topic) => {
       topic.preload = 'metadata';
 
@@ -73,6 +73,7 @@ export class TopicsSinglePage {
     // use AudioProvider to control selected track
     console.log('pausing track: ', this._audioProvider.current);
     this._audioProvider.pause();
+//    this._audioProvider.tracks
   }
 
   // Stop tracks on leaving view
