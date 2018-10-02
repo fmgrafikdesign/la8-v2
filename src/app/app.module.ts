@@ -35,6 +35,7 @@ import { ContactPage } from '../pages/themenauswahl/themenauswahl';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { BilderSinglePage } from "../pages/bilder-single/bilder-single";
+//import { BilderSinglePageModule } from "../pages/bilder-single/bilder-single.module";
 import { TopicsSinglePage } from "../pages/topics-single/topics-single";
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -77,7 +78,8 @@ export class MyErrorHandler implements ErrorHandler {
     IonicModule.forRoot(MyApp),
     HttpModule,
     IonicImageLoader.forRoot(),
-    IonicAudioModule.forRoot(defaultAudioProviderFactory)
+    IonicAudioModule.forRoot(defaultAudioProviderFactory),
+    //BilderSinglePageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
