@@ -59,7 +59,7 @@ export class HomePage {
   }
 
   onTrackFinished(track: any) {
-    console.log('Track finished', track)
+    console.log('Track finished', track);
   }
 
   // Stop tracks on leaving view

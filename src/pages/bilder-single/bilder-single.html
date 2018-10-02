@@ -29,7 +29,7 @@
                                   ></audio-track-progress-bar>
 
         <button ion-button icon-only item-end color="dark">
-          <audio-track-play dark [audioTrack]="audio" (click)="pauseAllTracks()">
+          <audio-track-play dark [audioTrack]="audio" (click)="pauseOtherTracks(audio)">
             <ion-spinner></ion-spinner>
           </audio-track-play>
         </button>
