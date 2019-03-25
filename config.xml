@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="de.fmgrafikdesign.arcsaudio2" version="0.2.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="de.fmgrafikdesign.arcsaudio2" version="0.2.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Arcs Audio</name>
     <description>Relaunched app for the interactive exhibit at the LA8 museum in Baden-Baden.</description>
     <author email="kontakt@fmgrafikdesign.de" href="https://fmgrafikdesign.de/">Fabian Mohr</author>

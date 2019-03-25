@@ -7,31 +7,47 @@
     "topics" : [
       {
         "uid": "1",
-        "title": "1. Einleitung - zur Biographie Wilhelm Buschs"
+        "title": "1. Einleitung - Schein oder Sein"
       },
       {
         "uid": "2",
-        "title": "2. Wilhelm Busch - Malerei"
+        "title": "2. Schauspieler und ihre Rollenporträts"
       },
       {
         "uid": "3",
-        "title": "3. Bildergeschichten vor Wilhelm Busch"
+        "title": "3. Die Carte-de-visite"
       },
       {
         "uid": "4",
-        "title": "4. Der Münchner Bilderbogen und Wilhelm Busch"
+        "title": "4. Der Theaterzettel"
       },
       {
         "uid": "5",
-        "title": "5. Wilhelm Buschs Max und Moritz"
+        "title": "5. Max Littmanns Münchner Theaterbau"
       },
       {
         "uid": "6",
-        "title": "6. Wilhelm Busch's Die Fromme Helene"
+        "title": "6. Lebende Bilder"
       },
       {
         "uid": "7",
-        "title": "7. Entstehung des Comics und die Rezeption von Wilhelm Busch"
+        "title": "7. Ein Festsaal von 1893"
+      },
+      {
+        "uid": "8",
+        "title": "8. Münchner Künstlerateliers"
+      },
+      {
+        "uid": "9",
+        "title": "9. Das Theater im Wohnzimmer"
+      },
+      {
+        "uid": "10",
+        "title": "10. Das Puppentheater"
+      },
+      {
+        "uid": "11",
+        "title": "11. Die Freiherrn von Heyl in Worms"
       }
     ]
   },
@@ -43,31 +59,47 @@
     "topics" : [
       {
         "uid": "1",
-        "title": "1. Introduction - À propos de la biographie de Wilhelm Busch"
+        "title": "1. Introduction - Etre ou paraitre"
       },
       {
         "uid": "2",
-        "title": "2. Wilhelm Busch - La peinture"
+        "title": "2. Les acteurs et leurs portraits"
       },
       {
         "uid": "3",
-        "title": "3. Les histoires dessinées avant Wilhelm Busch"
+        "title": "3. La carte de Visite"
       },
       {
         "uid": "4",
-        "title": "4. Les Münchner Bilderbogen et Wilhelm Busch"
+        "title": "4. L'affiche de théatre"
       },
       {
         "uid": "5",
-        "title": "5. Max und Moritz de Wilhelm Busch"
+        "title": "5. Le théatre munichois de Max Littman"
       },
       {
         "uid": "6",
-        "title": "6. La pieuse Heléne de Wilhelm Busch"
+        "title": "6. Image vivantes"
       },
       {
         "uid": "7",
-        "title": "7. Création de la bande dessinée et accueil fait à Wilhelm Busch"
+        "title": "7. Une salle des fetes en 1893"
+      },
+      {
+        "uid": "8",
+        "title": "8. Les ateliers d'artistes de Munich"
+      },
+      {
+        "uid": "9",
+        "title": "9. Le théatre dans la salle de séjour"
+      },
+      {
+        "uid": "10",
+        "title": "10. Le théatre de marionnettes"
+      },
+      {
+        "uid": "11",
+        "title": "11. Les barons de Heyl à Worms"
       }
     ]
   },
@@ -79,31 +111,47 @@
     "topics" : [
       {
         "uid": "1",
-        "title": "1. Introduction - On the biography of Wilhelm Busch"
+        "title": "1. Introduction"
       },
       {
         "uid": "2",
-        "title": "2. Wilhelm Busch - Painting"
+        "title": "2. Actors and their Role Portraits"
       },
       {
         "uid": "3",
-        "title": "3. Picture stories BEFORE Wilhelm Busch"
+        "title": "3. The Carte de Visite / visiting card"
       },
       {
         "uid": "4",
-        "title": "4. The Münchener Bilderbogen and Wilhelm Busch"
+        "title": "4. Theatre playbills"
       },
       {
         "uid": "5",
-        "title": "5. Wilhelm Busch's Max und Moritz"
+        "title": "5. Max Littman's Munich Theatre Building"
       },
       {
         "uid": "6",
-        "title": "6. Wilhelm Busch's Die Fromme Helene"
+        "title": "6. Tableux vivants or living images"
       },
       {
         "uid": "7",
-        "title": "7. The Genesis of the Comic and the Reception of Wilhelm Busch"
+        "title": "7. A Ceremonial Hall of 1893"
+      },
+      {
+        "uid": "8",
+        "title": "8. Artists' Studios in Munich"
+      },
+      {
+        "uid": "9",
+        "title": "9. 9. The living-room theatre"
+      },
+      {
+        "uid": "10",
+        "title": "10. The puppet theatre"
+      },
+      {
+        "uid": "11",
+        "title": "11. The Freiherrn von Heyl in Worms"
       }
     ]
   }
