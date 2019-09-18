@@ -7,43 +7,79 @@
     "topics" : [
       {
         "uid": "1",
-        "title": "1. Einleitung - Schein oder Sein"
+        "title": "1. Einführung"
       },
       {
-        "uid": "12",
-        "title": "2. Schauspieler und ihre Rollenporträts"
+        "uid": "2",
+        "title": "2. Gedankenflug"
+      },
+      {
+        "uid": "3",
+        "title": "3. Ballone"
       },
       {
         "uid": "4",
-        "title": "3. Der Theaterzettel"
+        "title": "4. Goya"
       },
       {
         "uid": "5",
-        "title": "4. Max Littmanns Münchner Theaterbau"
+        "title": "5. Honoré Daumier"
       },
       {
         "uid": "6",
-        "title": "5. Lebende Bilder"
+        "title": "6. Künstler fliegen"
       },
       {
         "uid": "7",
-        "title": "6. Ein Festsaal von 1893"
+        "title": "7. Arnold Böcklin"
       },
       {
         "uid": "8",
-        "title": "7. Münchner Künstlerateliers"
+        "title": "8. Otto Lilienthal - Zeichnungen"
       },
       {
         "uid": "9",
-        "title": "8. Das Theater im Wohnzimmer"
+        "title": "9. Hans Thoma"
       },
       {
         "uid": "10",
-        "title": "9. Das Puppentheater"
+        "title": "10. Der Schneider von Ulm"
       },
       {
         "uid": "11",
-        "title": "10. Die Freiherrn von Heyl in Worms"
+        "title": "11. Otto Lilienhtal - Modell"
+      },
+      {
+        "uid": "12",
+        "title": "12. Otto Lilienthal - Flugfotos"
+      },
+      {
+        "uid": "13",
+        "title": "13. Tempelhofer Flugfreuden"
+      },
+      {
+        "uid": "13a",
+        "title": "13a. Flug über den Kanal"
+      },
+      {
+        "uid": "14",
+        "title": "14. Die Gebrüder Wright in Berlin"
+      },
+      {
+        "uid": "15",
+        "title": "15. Die Flugpionierin Melli Beese"
+      },
+      {
+        "uid": "16",
+        "title": "16. Karl und Hans Vollmoeller"
+      },
+      {
+        "uid": "17",
+        "title": "17. Robert Martin Eltner"
+      },
+      {
+        "uid": "18",
+        "title": "18. Georg Kolbes Ikarus"
       }
     ]
   },
@@ -55,43 +91,79 @@
     "topics" : [
       {
         "uid": "1",
-        "title": "1. Introduction - Etre ou paraitre"
+        "title": "1. Introduction"
       },
       {
-        "uid": "12",
-        "title": "2. Les acteurs et leurs portraits"
+        "uid": "2",
+        "title": "2. L'envol de la pensée"
+      },
+      {
+        "uid": "3",
+        "title": "3. Ballons"
       },
       {
         "uid": "4",
-        "title": "3. L'affiche de théatre"
+        "title": "4. Goya"
       },
       {
         "uid": "5",
-        "title": "4. Le théatre munichois de Max Littman"
+        "title": "5. Honoré Daumier"
       },
       {
         "uid": "6",
-        "title": "5. Image vivantes"
+        "title": "6. Le artistes volent"
       },
       {
         "uid": "7",
-        "title": "6. Une salle des fetes en 1893"
+        "title": "7. Arnold Böcklin"
       },
       {
         "uid": "8",
-        "title": "7. Les ateliers d'artistes de Munich"
+        "title": "8. Otto Lilienthal - Dessins"
       },
       {
         "uid": "9",
-        "title": "8. Le théatre dans la salle de séjour"
+        "title": "9. Hans Thoma"
       },
       {
         "uid": "10",
-        "title": "9. Le théatre de marionnettes"
+        "title": "10. Der Schneider von Ulm"
       },
       {
         "uid": "11",
-        "title": "10. Les barons de Heyl à Worms"
+        "title": "11. Otto Lilienthal - Maquettes"
+      },
+      {
+        "uid": "12",
+        "title": "12. Otto Lilienthal - photographies de vols "
+      },
+      {
+        "uid": "13",
+        "title": "13. Les amis du vols de Tempelhof"
+      },
+      {
+        "uid": "13a",
+        "title": "13a. Le traversée de la Manche"
+      },
+      {
+        "uid": "14",
+        "title": "14. Les frères Wright à Berlin"
+      },
+      {
+        "uid": "15",
+        "title": "15. Melli Beese, une pionnière de l'aviation"
+      },
+      {
+        "uid": "16",
+        "title": "16. Karl et Hans Vollmoeller"
+      },
+      {
+        "uid": "17",
+        "title": "17. Robert Martin Eltner"
+      },
+      {
+        "uid": "18",
+        "title": "18. Georg Kolbes Ikarus"
       }
     ]
   },
@@ -106,40 +178,76 @@
         "title": "1. Introduction"
       },
       {
-        "uid": "12",
-        "title": "2. Actors and their Role Portraits"
+        "uid": "2",
+        "title": "2. Flight of Fancy"
+      },
+      {
+        "uid": "3",
+        "title": "3. Ballons"
       },
       {
         "uid": "4",
-        "title": "3. Theatre playbills"
+        "title": "4. Goya"
       },
       {
         "uid": "5",
-        "title": "4. Max Littman's Munich Theatre Building"
+        "title": "5. Honoré Daumier"
       },
       {
         "uid": "6",
-        "title": "5. Tableux vivants or living images"
+        "title": "6. Flying Artists"
       },
       {
         "uid": "7",
-        "title": "6. A Ceremonial Hall of 1893"
+        "title": "7. Arnold Böcklin"
       },
       {
         "uid": "8",
-        "title": "7. Artists' Studios in Munich"
+        "title": "8. Otto Lilienthal - Drawings"
       },
       {
         "uid": "9",
-        "title": "8. The living-room theatre"
+        "title": "9. Hans Thoma"
       },
       {
         "uid": "10",
-        "title": "9. The puppet theatre"
+        "title": "10. The Tailor of Ulm"
       },
       {
         "uid": "11",
-        "title": "10. The Freiherrn von Heyl in Worms"
+        "title": "11. Otto Lilienhtal - Models"
+      },
+      {
+        "uid": "12",
+        "title": "12. Otto Lilienthal - Flight Photographs"
+      },
+      {
+        "uid": "13",
+        "title": "13. Airy Delights in Tempelhof"
+      },
+      {
+        "uid": "13a",
+        "title": "13a. Flight across the Channel"
+      },
+      {
+        "uid": "14",
+        "title": "14. The Wright Brothers in Berlin"
+      },
+      {
+        "uid": "15",
+        "title": "15. Aviation Pioneer Melli Beese"
+      },
+      {
+        "uid": "16",
+        "title": "16. Karl and Hans Vollmoeller"
+      },
+      {
+        "uid": "17",
+        "title": "17. Robert Martin Eltner"
+      },
+      {
+        "uid": "18",
+        "title": "18. Georg Kolbe's Ikarus"
       }
     ]
   }

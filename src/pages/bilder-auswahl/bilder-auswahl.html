@@ -10,8 +10,7 @@
 <h2 padding text-center>Welches Bild möchten Sie betrachten?</h2>
   <ion-list no-lines>
     <ion-item *ngFor="let bild of bilder" (click)="navigateToSingle(bild)">
-      <!-- No more image caching from network because we save them in the src directly (and switch them via ionic deploy)
-      <!--<img-loader class="w-100 d-block bild-auswahl" src="assets/imgs/{{bild.filename}}" useImg></img-loader>-->
+      <!-- No more image caching from network because we save them in the src directly (and switch them via ionic deploy) -->
 
       <img class="w-100 d-block bild-auswahl" src="assets/imgs/{{bild.filename}}">
 
