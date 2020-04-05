@@ -38,7 +38,7 @@ export class BilderSinglePage {
   selectedTrack: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private _audioProvider: AudioProvider) {
-    console.log(this.navParams.get('bild'));
+    // console.log(this.navParams.get('bild'));
     this.bild = this.navParams.get('bild');
     this.interviews = this.bild.audio;
   }
@@ -60,14 +60,14 @@ export class BilderSinglePage {
   }
 
   pauseCurrentTrack() {
-    console.log('pausing track: ', this._audioProvider.current);
+    //console.log('pausing track: ', this._audioProvider.current);
     this._audioProvider.pause();
   }
 
   // Pauses the currently active track
   pauseSelectedTrack() {
     // use AudioProvider to control selected track
-    console.log('pausing track: ', this._audioProvider.current);
+    //console.log('pausing track: ', this._audioProvider.current);
     this._audioProvider.pause();
   }
 
@@ -79,7 +79,7 @@ export class BilderSinglePage {
     // Pause other tracks, but not the one we clicked on right now.
     this.allTracks.forEach((track) => {
       if(track.isPlaying && audio.track.id != track.id) {
-        console.log(track.id + ' currently playing, pausing now');
+        //console.log(track.id + ' currently playing, pausing now');
         track.pause();
       }
       //console.log(track);
@@ -87,7 +87,7 @@ export class BilderSinglePage {
   }
 
   onTrackFinished(track: any) {
-    console.log('Track finished', track)
+    //console.log('Track finished', track)
   }
 
   // Stop tracks on leaving view

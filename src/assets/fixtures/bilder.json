@@ -1,145 +1,145 @@
 [
   {
     "id": "0",
-    "titel": "Lilienthal",
-    "filename": "lilienthal.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/romeo-julia/feuerbach.jpg",
+    "titel": "Hofmann",
+    "filename": "hofmann-brandung.jpg",
+    "url": "https://cdn.fmgrafikdesign.de/la8/latest/hofmann-brandung/hofmann-brandung.jpg",
     "audio": [
       {
         "id": "0",
-        "title": "Bürger aus Baden Baden",
-        "alter": "",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/lilienthal/buerger-aus-baden-baden.mp3",
+        "title": "Bürgerin aus Baden Baden",
+        "alter": "55",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hofmann-brandung/buergerin-aus-baden-baden-55.mp3",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Flieger",
-        "alter": "61",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/lilienthal/flieger.mp3",
+        "title": "Schüler",
+        "alter": "11",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hofmann-brandung/schueler-11.mp3",
         "preload": "metadata"
       },
       {
         "id": "2",
         "title": "Studentin",
-        "alter": "20",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/lilienthal/studentin.mp3",
+        "alter": "21",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hofmann-brandung/studentin-21.mp3",
         "preload": "metadata"
       }
     ]
   },
   {
     "id": "1",
-    "titel": "Amor",
-    "filename": "amor-auf-vogel.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/amor-auf-vogel/amor-auf-vogel.jpg",
+    "titel": "Daumier",
+    "filename": "daumier.jpg",
+    "url": "https://cdn.fmgrafikdesign.de/la8/latest/daumier/daumier.jpg",
     "audio": [
       {
         "id": "0",
-        "title": "Besucher aus Trier",
-        "alter": "52",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/amor-auf-vogel/besucher-aus-trier-52.mp3",
+        "title": "Philosophin",
+        "alter": "55",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/daumier/philosophin-55.mp3",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Schriftstellerin",
-        "alter": "56",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/amor-auf-vogel/schriftstellerin-56",
+        "title": "Theologe",
+        "alter": "71",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/daumier/theologe-71.mp3",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Schüler",
-        "alter": "11 & 13",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/amor-auf-vogel/schueler-11-13.mp3",
+        "title": "Besucher aus Karlsruhe",
+        "alter": "27 & 34",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/daumier/philosophin-55.mp3",
         "preload": "metadata"
       }
     ]
   },
   {
     "id": "2",
-    "titel": "Beese",
-    "filename": "beese.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/athalie/athalie.jpg",
+    "titel": "Fotografie",
+    "filename": "uwe-scheid.jpg",
+    "url": "https://cdn.fmgrafikdesign.de/la8/latest/uwe-scheid/uwe-scheid.jpg",
     "audio": [
       {
         "id": "0",
         "title": "Besucher aus Stuttgart",
         "alter": "28",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/beese/besucher-aus-stuttgart-28.mp3",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/uwe-scheid/besucher-aus-stuttgart-28.mp3",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Flieger",
-        "alter": "61",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/beese/flieger-61.mp3",
+        "title": "Studentin",
+        "alter": "21",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/uwe-scheid/studentin-21.mp3",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Philosophin",
-        "alter": "52",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/beese/philosophin-52.mp3",
+        "title": "Theologe",
+        "alter": "71",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/uwe-scheid/theologe-71.mp3",
         "preload": "metadata"
       }
     ]
   },
   {
     "id": "3",
-    "titel": "Goya",
-    "filename": "goya.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/junge/junge.jpg",
+    "titel": "Schneider",
+    "filename": "schneider.jpg",
+    "url": "https://cdn.fmgrafikdesign.de/la8/latest/schneider/schneider.jpg",
     "audio": [
       {
         "id": "0",
-        "title": "Diakon",
-        "alter": "69",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/goya/diakon-69.mp3",
+        "title": "Bürgerin aus Baden Baden",
+        "alter": "55",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/schneider/buergerin-aus-baden-baden-55.mp3",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Philosophin",
-        "alter": "52",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/goya/philosophin-52.mp3",
+        "title": "Künstler",
+        "alter": "",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/schneider/kuenstler.mp3",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Vertriebler",
-        "alter": "25",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/goya/vertriebler-24.mp3",
+        "title": "Schüler",
+        "alter": "11",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/schneider/schueler-11.mp3",
         "preload": "metadata"
       }
     ]
   },
   {
     "id": "4",
-    "titel": "Kolbe",
-    "filename": "kolbe.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/mann/mann.jpg",
+    "titel": "Grandville",
+    "filename": "grandville.jpg",
+    "url": "https://cdn.fmgrafikdesign.de/la8/latest/grandville/grandville.jpg",
     "audio": [
       {
         "id": "0",
-        "title": "Bürgerin aus Baden Baden",
-        "alter": "54",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/kolbe/burgerin-aus-baden-baden-54.mp3",
+        "title": "Philosophin",
+        "alter": "55",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/grandville/philosophin-55.mp3",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Kulturwissenschaftlerin",
-        "alter": "33",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/kolbe/kulturwissenschaftlerin-33.mp3",
+        "title": "Schülerin",
+        "alter": "11",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/grandville/schuelerin-11.mp3",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Theaterfrau",
-        "alter": "55",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/kolbe/theaterfrau-55.mp3",
+        "title": "Besucher aus Karlsruhe",
+        "alter": "27 & 34",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/grandville/besucher-aus-karlsruhe-27-34.mp3",
         "preload": "metadata"
       }
     ]

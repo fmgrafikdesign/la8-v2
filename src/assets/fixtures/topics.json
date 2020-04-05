@@ -7,79 +7,67 @@
     "topics" : [
       {
         "uid": "1",
-        "title": "1. Einführung"
+        "title": "1. Einleitung"
       },
       {
         "uid": "2",
-        "title": "2. Gedankenflug"
+        "title": "2. Das Badezimmer — Ort der Schönheitspflege und Entspannung"
       },
       {
         "uid": "3",
-        "title": "3. Ballone"
+        "title": "3. Ärzte, Heiler und Propheten"
       },
       {
         "uid": "4",
-        "title": "4. Goya"
+        "title": "4. Seebäder und Kurstädte"
       },
       {
         "uid": "5",
-        "title": "5. Honoré Daumier"
+        "title": "5. Vermessung des Körpers"
       },
       {
         "uid": "6",
-        "title": "6. Künstler fliegen"
+        "title": "6. „Ohne Fleiß kein Preis!“ — Turnen und erste Fitnessgeräte"
       },
       {
         "uid": "7",
-        "title": "7. Arnold Böcklin"
+        "title": "7. Die Freuden des Schwimmunterrichts"
       },
       {
         "uid": "8",
-        "title": "8. Otto Lilienthal - Zeichnungen"
+        "title": "8. „Ich habe meinen Tod gesehen“"
       },
       {
         "uid": "9",
-        "title": "9. Hans Thoma"
+        "title": "9. Elektrisieren ist gesund!"
       },
       {
         "uid": "10",
-        "title": "10. Der Schneider von Ulm"
+        "title": "10. Die Künstler und der optimierte Körper"
+      },
+      {
+        "uid": "10a",
+        "title": "10a. Christian Adam Landenberger"
+      },
+      {
+        "uid": "10b",
+        "title": "10b. Karl Albiker"
+      },
+      {
+        "uid": "10c",
+        "title": "10c. Sascha Schneider — Hohes Sinnen"
+      },
+      {
+        "uid": "10d",
+        "title": "10d. Ludwig von Hofmann"
       },
       {
         "uid": "11",
-        "title": "11. Otto Lilienhtal - Modell"
+        "title": "11. Technik und Sexualität"
       },
       {
         "uid": "12",
-        "title": "12. Otto Lilienthal - Flugfotos"
-      },
-      {
-        "uid": "13",
-        "title": "13. Tempelhofer Flugfreuden"
-      },
-      {
-        "uid": "13a",
-        "title": "13a. Flug über den Kanal"
-      },
-      {
-        "uid": "14",
-        "title": "14. Die Gebrüder Wright in Berlin"
-      },
-      {
-        "uid": "15",
-        "title": "15. Die Flugpionierin Melli Beese"
-      },
-      {
-        "uid": "16",
-        "title": "16. Karl und Hans Vollmoeller"
-      },
-      {
-        "uid": "17",
-        "title": "17. Robert Martin Eltner"
-      },
-      {
-        "uid": "18",
-        "title": "18. Georg Kolbes Ikarus"
+        "title": "12. Frankensteins Monster"
       }
     ]
   },
@@ -95,75 +83,63 @@
       },
       {
         "uid": "2",
-        "title": "2. L'envol de la pensée"
+        "title": "2. La salle de bains — le lieu des soins de beauté et de la détente"
       },
       {
         "uid": "3",
-        "title": "3. Ballons"
+        "title": "3. Médecins, guérisseurs et prophètes"
       },
       {
         "uid": "4",
-        "title": "4. Goya"
+        "title": "4. Stations balnéaires et villes thermales"
       },
       {
         "uid": "5",
-        "title": "5. Honoré Daumier"
+        "title": "5. La mesure du corps"
       },
       {
         "uid": "6",
-        "title": "6. Le artistes volent"
+        "title": "6. „Si ça ne fait pas mal, ça ne sert à rien!“ — Gymnastique et premiers appareils de musculation"
       },
       {
         "uid": "7",
-        "title": "7. Arnold Böcklin"
+        "title": "7. Les joies des leçons de natation"
       },
       {
         "uid": "8",
-        "title": "8. Otto Lilienthal - Dessins"
+        "title": "8. „J’ai vu ma mort“"
       },
       {
         "uid": "9",
-        "title": "9. Hans Thoma"
+        "title": "9. C’est sain, l’électrification !"
       },
       {
         "uid": "10",
-        "title": "10. Der Schneider von Ulm"
+        "title": "10. L’artiste et le corps optimisé"
+      },
+      {
+        "uid": "10a",
+        "title": "10a. Christian Adam Landenberger"
+      },
+      {
+        "uid": "10b",
+        "title": "10b. Karl Albiker"
+      },
+      {
+        "uid": "10c",
+        "title": "10c. Sascha Schneider — Hohes Sinnen ou médidation hautaine"
+      },
+      {
+        "uid": "10d",
+        "title": "10d. Ludwig von Hofmann"
       },
       {
         "uid": "11",
-        "title": "11. Otto Lilienthal - Maquettes"
+        "title": "11. Technologie et sexualité "
       },
       {
         "uid": "12",
-        "title": "12. Otto Lilienthal - photographies de vols "
-      },
-      {
-        "uid": "13",
-        "title": "13. Les amis du vols de Tempelhof"
-      },
-      {
-        "uid": "13a",
-        "title": "13a. Le traversée de la Manche"
-      },
-      {
-        "uid": "14",
-        "title": "14. Les frères Wright à Berlin"
-      },
-      {
-        "uid": "15",
-        "title": "15. Melli Beese, une pionnière de l'aviation"
-      },
-      {
-        "uid": "16",
-        "title": "16. Karl et Hans Vollmoeller"
-      },
-      {
-        "uid": "17",
-        "title": "17. Robert Martin Eltner"
-      },
-      {
-        "uid": "18",
-        "title": "18. Georg Kolbes Ikarus"
+        "title": "12. Le monstre de Frankenstein "
       }
     ]
   },
@@ -179,75 +155,63 @@
       },
       {
         "uid": "2",
-        "title": "2. Flight of Fancy"
+        "title": "2. The Bathroom — A Place of Beauty Care and Relaxation"
       },
       {
         "uid": "3",
-        "title": "3. Ballons"
+        "title": "3. Doctors, Healers and Prophets "
       },
       {
         "uid": "4",
-        "title": "4. Goya"
+        "title": "4. Seaside Resorts and Spa Towns"
       },
       {
         "uid": "5",
-        "title": "5. Honoré Daumier"
+        "title": "5. Measuring the Body"
       },
       {
         "uid": "6",
-        "title": "6. Flying Artists"
+        "title": "6. “No pain no gain!” — Gymnastics and the First Workout Equipment"
       },
       {
         "uid": "7",
-        "title": "7. Arnold Böcklin"
+        "title": "7. The Joys of Swimming Lessons"
       },
       {
         "uid": "8",
-        "title": "8. Otto Lilienthal - Drawings"
+        "title": "8. “I have seen my death”"
       },
       {
         "uid": "9",
-        "title": "9. Hans Thoma"
+        "title": "9. Electrotherapy is healthy!"
       },
       {
         "uid": "10",
-        "title": "10. The Tailor of Ulm"
+        "title": "10. Artists and the Optimized Body "
+      },
+      {
+        "uid": "10a",
+        "title": "10a. Christian Adam Landenberger"
+      },
+      {
+        "uid": "10b",
+        "title": "10b. Karl Albiker"
+      },
+      {
+        "uid": "10c",
+        "title": "10c. Sascha Schneider — Hohes Sinnen"
+      },
+      {
+        "uid": "10d",
+        "title": "10d. Ludwig von Hofmann "
       },
       {
         "uid": "11",
-        "title": "11. Otto Lilienhtal - Models"
+        "title": "11.Technology and Sexuality "
       },
       {
         "uid": "12",
-        "title": "12. Otto Lilienthal - Flight Photographs"
-      },
-      {
-        "uid": "13",
-        "title": "13. Airy Delights in Tempelhof"
-      },
-      {
-        "uid": "13a",
-        "title": "13a. Flight across the Channel"
-      },
-      {
-        "uid": "14",
-        "title": "14. The Wright Brothers in Berlin"
-      },
-      {
-        "uid": "15",
-        "title": "15. Aviation Pioneer Melli Beese"
-      },
-      {
-        "uid": "16",
-        "title": "16. Karl and Hans Vollmoeller"
-      },
-      {
-        "uid": "17",
-        "title": "17. Robert Martin Eltner"
-      },
-      {
-        "uid": "18",
-        "title": "18. Georg Kolbe's Ikarus"
+        "title": "12. Frankenstein‘s Monster "
       }
     ]
   }

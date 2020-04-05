@@ -28,12 +28,12 @@ export class HomePage {
   ngAfterContentInit() {
     // get all tracks managed by AudioProvider so we can control playback via the API
     this.allTracks = this._audioProvider.tracks;
-    console.log(this.allTracks);
+    // console.log(this.allTracks);
   }
 
   playSelectedTrack(track) {
     // use AudioProvider to control selected track
-    console.log(track);
+    // console.log(track);
     this._audioProvider.play(track);
   }
 
@@ -43,7 +43,7 @@ export class HomePage {
       if(track.isPlaying) {
         track.pause();
       }
-      console.log(track);
+      // console.log(track);
     });
   }
 
