@@ -26,6 +26,7 @@ import {AudioProvider, WebAudioTrack} from "ionic-audio";
 export class BilderSinglePage {
 
   bild: any;
+  bildunterschrift: any;
   file: any;
   play: any;
   pause: any;
@@ -40,6 +41,7 @@ export class BilderSinglePage {
   constructor(public navCtrl: NavController, public navParams: NavParams, private _audioProvider: AudioProvider) {
     // console.log(this.navParams.get('bild'));
     this.bild = this.navParams.get('bild');
+    this.bildunterschrift = this.bild.bildunterschrift
     this.interviews = this.bild.audio;
   }
 

@@ -1,145 +1,190 @@
 [
   {
     "id": "0",
-    "titel": "Hofmann",
-    "filename": "hofmann-brandung.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/hofmann-brandung/hofmann-brandung.jpg",
+    "titel": "Hafeneinfahrt",
+    "filename": "hafeneinfahrt.jpg",
+    "bildunterschrift": "Heinrich Wilhelm Petersen-Angeln \n(1850–1906)\nHafeneinfahrt am Abend, 1880er Jahre \nÖl auf Leinwand\nDr. Axe-Stiftung, Bonn\nFoto: Saskia Riedel",
     "audio": [
       {
         "id": "0",
-        "title": "Bürgerin aus Baden Baden",
-        "alter": "55",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hofmann-brandung/buergerin-aus-baden-baden-55.mp3",
+        "title": "Besucherin aus Karlsruhe",
+        "alter": "35",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hafeneinfahrt/besucherin-aus-karlsruhe-35.mp3",
+        "zitat": "Das ist für mich Ungleichzeitigkeit von Gleichzeitigem.",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Schüler",
-        "alter": "11",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hofmann-brandung/schueler-11.mp3",
+        "title": "Sammler",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hafeneinfahrt/sammler-63.mp3",
+        "zitat": "Dort ist das Meer die Selbstverständlichkeit des Alltags.",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Studentin",
-        "alter": "21",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hofmann-brandung/studentin-21.mp3",
+        "title": "Schriftstellerin",
+        "alter": "60",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/hafeneinfahrt/schriftstellerin-60.mp3",
+        "zitat": "Vielleicht sehen die zwei Personen auch zuversichtlich auf das Dampfschiff und damit hoffnungsfroh in die Zukunft.",
         "preload": "metadata"
       }
     ]
   },
   {
     "id": "1",
-    "titel": "Daumier",
-    "filename": "daumier.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/daumier/daumier.jpg",
+    "titel": "Scheuren",
+    "filename": "scheuren.jpg",
+    "bildunterschrift": "Johann Caspar Scheuren \n(1810–1887)\nBewegte See, 1854\nÖl auf Leinwand, 20 x 29 cm\nDr. Axe-Stiftung, Bonn",
     "audio": [
       {
         "id": "0",
-        "title": "Philosophin",
-        "alter": "55",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/daumier/philosophin-55.mp3",
+        "title": "Besucherin aus Baden Baden",
+        "alter": "56",
+        "zitat": "Das muss so ein Urbedürfnis sein. Raus in die Weite in die Freiheit. Da nimmt man alles in Kauf.",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/scheuren/buergerin-aus-baden-baden-56.mp3",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Theologe",
-        "alter": "71",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/daumier/theologe-71.mp3",
+        "title": "Sammler",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/scheuren/sammler.mp3",
+        "zitat": "Den Sturm kann man nicht abstellen. Das ist wirklich ein Kampf ums Überleben auf dem Meer.",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Besucher aus Karlsruhe",
-        "alter": "27 & 34",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/daumier/besucher-aus-karlsruhe-27-34.mp3",
+        "title": "Schriftstellerin",
+        "alter": "60",
+        "zitat": "Das ist ein Bild, welches das Leben beschreibt, das aus Stürmen und Ruhe besteht.",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/scheuren/schriftstellerin-60.mp3",
         "preload": "metadata"
       }
     ]
   },
   {
     "id": "2",
-    "titel": "Fotografie",
-    "filename": "uwe-scheid.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/uwe-scheid/uwe-scheid.jpg",
+    "titel": "Taucher",
+    "filename": "taucher.jpg",
+    "bildunterschrift": "August Specht (1849–1923)\nDer Photograph auf dem Meeresgrund, Darstellung der Arbeit von Louis Boutan, 1893\nArchiv Förster, Stralsund\nFoto: Saskia Riedel",
     "audio": [
       {
         "id": "0",
-        "title": "Besucher aus Stuttgart",
-        "alter": "28",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/uwe-scheid/besucher-aus-stuttgart-28.mp3",
+        "title": "Besucherin aus Karlsruhe",
+        "alter": "35",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/taucher/besucherin-aus-karlsruhe_35.mp3",
+        "zitat": "Ich finde den Vergleich zwischen Tiefseeentdeckung und Weltraumentdeckung sehr nahe liegend.",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Studentin",
-        "alter": "21",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/uwe-scheid/studentin-21.mp3",
+        "title": "Maskenbildnerin",
+        "alter": "51",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/taucher/maskenbildnerin-51.mp3",
+        "zitat": "Damals wurde auch gedacht, dass wir Menschen als übergeordnete Wesen das andere erkunden, es uns aber nicht berührt.",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Theologe",
-        "alter": "71",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/uwe-scheid/theologe-71.mp3",
+        "title": "Zwei Schüler",
+        "alter": "12",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/taucher/zwei-schueler-12.mp3",
+        "zitat": "Da haben die Leute schon einiges riskiert, da ganz allein runterzugehen.",
         "preload": "metadata"
       }
     ]
   },
   {
     "id": "3",
-    "titel": "Schneider",
-    "filename": "schneider.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/schneider/schneider.jpg",
+    "titel": "Thoma",
+    "filename": "thoma.jpg",
+    "bildunterschrift": "Meereserwachen (Nereide - Seeweib)\n1912\nÖl auf Aluplatte\nHans Thoma Kunstmuseum Bernau\nFoto: Dieter Conrads",
     "audio": [
       {
         "id": "0",
-        "title": "Bürgerin aus Baden Baden",
-        "alter": "55",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/schneider/buergerin-aus-baden-baden-55.mp3",
+        "title": "Maskenbildnerin",
+        "alter": "51",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/thoma/maskenbildnerin-51.mp3",
+        "zitat": "Der erste Eindruck war bedrohlich, aber dann hatte ich das Gefühl, dass sie bedroht wird.",
         "preload": "metadata"
       },
       {
         "id": "1",
-        "title": "Künstler",
-        "alter": "",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/schneider/kuenstler.mp3",
+        "title": "Schauspielerin",
+        "alter": "50",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/thoma/schauspielerin-50.mp3",
+        "zitat": "Wenn sie etwas gesehen hat, dann ist sie voller Leidenschaft.",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Schüler",
-        "alter": "11",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/schneider/schueler-11.mp3",
+        "title": "Flieger",
+        "alter": "63",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/thoma/flieger-63.mp3",
+        "zitat": "Die Meerjungfrau ist schon mit den Sehnsüchten der Seefahrer verbunden.",
         "preload": "metadata"
       }
     ]
   },
   {
     "id": "4",
-    "titel": "Grandville",
-    "filename": "grandville.jpg",
-    "url": "https://cdn.fmgrafikdesign.de/la8/latest/grandville/grandville.jpg",
+    "titel": "Titanic",
+    "filename": "titanic.jpg",
+    "bildunterschrift": "Modell des britischen Passagierdampfers Titanic, Maßstab 1 : 100\nSchifffahrtsmuseum Rostock\nFoto: F. Jesse",
     "audio": [
       {
         "id": "0",
-        "title": "Philosophin",
-        "alter": "55",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/grandville/philosophin-55.mp3",
-        "preload": "metadata"
+        "title": "Flieger",
+        "alter": "63",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/titanic/flieger-63.mp3",
+        "preload": "metadata",
+        "zitat": "Die Titanic war ein Ausdruck des technischen Designs der damaligen Zeit."
       },
       {
         "id": "1",
-        "title": "Schülerin",
-        "alter": "11",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/grandville/schuelerin-11.mp3",
+        "title": "Besucherin aus Karlsruhe",
+        "alter": "35",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/titanic/besucherin-aus-karlsruhe-35.mp3",
+        "zitat": "Das ist auch schön und gefährlich: Der Mensch, der mit der Technik diese See bezwingen will.",
         "preload": "metadata"
       },
       {
         "id": "2",
-        "title": "Besucher aus Karlsruhe",
-        "alter": "27 & 34",
-        "src": "https://cdn.fmgrafikdesign.de/la8/latest/grandville/besucher-aus-karlsruhe-27-34.mp3",
+        "title": "Besucher aus Baden Baden",
+        "alter": "73 & 35",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/titanic/besucher-aus-baden-baden-73-35.mp3",
+        "zitat": "Als die Menschen das damals gesehen haben, dachten sie vermutlich auch: Damit fahre ich jetzt in ein komplett neues Leben.",
+        "preload": "metadata"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "titel": "Zahn",
+    "filename": "zahn.jpg",
+    "bildunterschrift": "A STOVE BOAT, Mitte 19. Jh\nPottwalzahn, Länge: 12 cm\nDeutsches Meeresmuseum, Stralsund\nFoto: Roland Obst, Stralsund",
+    "audio": [
+      {
+        "id": "0",
+        "title": "Schauspielerin",
+        "alter": "50",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/zahn/schauspielerin-50.mp3",
+        "zitat": "Da fühle ich eine Art Demut vor so einem großen Tier.",
+        "preload": "metadata"
+      },
+      {
+        "id": "1",
+        "title": "Zwei Schüler",
+        "alter": "12",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/zahn/zwei-schueler-12.mp3",
+        "zitat": "Der Mensch hat damals im Walfang einen Vorteil gesehen und für viele war das normal.",
+        "preload": "metadata"
+      },
+      {
+        "id": "2",
+        "title": "Besucher aus Baden Baden",
+        "alter": "72 & 35",
+        "src": "https://cdn.fmgrafikdesign.de/la8/latest/zahn/zwei-schueler-12.mp3",
+        "zitat": "Da musste ich an einen Tiktok Trend denken, in dem das Sea Shanty (Seemannslied) „The Wellerman“ gesungen wurde.",
         "preload": "metadata"
       }
     ]

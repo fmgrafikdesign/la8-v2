@@ -20,13 +20,18 @@
   <!-- My implementation -->
   <ion-list>
     <audio-track #audio *ngFor="let track of interviews" [track]="track" (onFinish)="onTrackFinished($event)">
-      <ion-item>
+      <ion-item text-wrap>
         <p><strong>{{audio.title}}</strong>
           <small *ngIf="track.alter">(Alter: {{track.alter}})</small>
         </p>
+        <p *ngIf="track.zitat">
+          <small>
+            "{{ track.zitat }}"
+          </small>
+        </p>
         <audio-track-progress-bar [class]="(audio.isPlaying) ? 'fade-opacity full-opacity' : 'fade-opacity low-opacity'"
                                   duration progress [audioTrack]="audio"
-                                  ></audio-track-progress-bar>
+        ></audio-track-progress-bar>
 
         <button ion-button icon-only item-end color="dark">
           <audio-track-play dark [audioTrack]="audio" (click)="pauseOtherTracks(audio)">
@@ -37,5 +42,7 @@
     </audio-track>
 
   </ion-list>
+
+  <ion-item text-wrap><small class="bildunterschrift">{{ bildunterschrift }}</small></ion-item>
 
 </ion-content>
