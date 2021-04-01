@@ -11,63 +11,59 @@
       },
       {
         "uid": "2",
-        "title": "2. Das Badezimmer — Ort der Schönheitspflege und Entspannung"
+        "title": "2. Walfang"
       },
       {
         "uid": "3",
-        "title": "3. Ärzte, Heiler und Propheten"
+        "title": "3. Scrimshaws"
       },
       {
         "uid": "4",
-        "title": "4. Seebäder und Kurstädte"
+        "title": "4. Schiffbruch und Strandraub (Andreas Achenbach)"
       },
       {
         "uid": "5",
-        "title": "5. Vermessung des Körpers"
+        "title": "5. Kapitänsbilder"
       },
       {
         "uid": "6",
-        "title": "6. „Ohne Fleiß kein Preis!“ — Turnen und erste Fitnessgeräte"
+        "title": "6. Tauchtechnik im 19. Jahrhundert"
       },
       {
         "uid": "7",
-        "title": "7. Die Freuden des Schwimmunterrichts"
+        "title": "7. Valdivia-Expedition"
       },
       {
         "uid": "8",
-        "title": "8. „Ich habe meinen Tod gesehen“"
+        "title": "8. Die Franklin-Expedition"
       },
       {
         "uid": "9",
-        "title": "9. Elektrisieren ist gesund!"
+        "title": "9. Die Shackleton-Expedition 1914/Fotos von Frank Hurley"
       },
       {
         "uid": "10",
-        "title": "10. Die Künstler und der optimierte Körper"
-      },
-      {
-        "uid": "10a",
-        "title": "10a. Christian Adam Landenberger"
-      },
-      {
-        "uid": "10b",
-        "title": "10b. Karl Albiker"
-      },
-      {
-        "uid": "10c",
-        "title": "10c. Sascha Schneider — Hohes Sinnen"
-      },
-      {
-        "uid": "10d",
-        "title": "10d. Ludwig von Hofmann"
+        "title": "10. Der Untergang der Lady Burgess bei den Kapverden 1806"
       },
       {
         "uid": "11",
-        "title": "11. Technik und Sexualität"
+        "title": "11. Das erste Transatlantikkabel"
       },
       {
         "uid": "12",
-        "title": "12. Frankensteins Monster"
+        "title": "12. Auswanderung im 19. Jahrhundert"
+      },
+      {
+        "uid": "13",
+        "title": "13. Schnelldampfer"
+      },
+      {
+        "uid": "14",
+        "title": "14. Kapitän Cüppers"
+      },
+      {
+        "uid": "15",
+        "title": "15. Titanic"
       }
     ]
   },
@@ -83,63 +79,59 @@
       },
       {
         "uid": "2",
-        "title": "2. La salle de bains — le lieu des soins de beauté et de la détente"
+        "title": "2. La pêche à la baleine"
       },
       {
         "uid": "3",
-        "title": "3. Médecins, guérisseurs et prophètes"
+        "title": "3. Les scrimshaws"
       },
       {
         "uid": "4",
-        "title": "4. Stations balnéaires et villes thermales"
+        "title": "4. Andreas Achenbach: Naufrage et vol sur la plage "
       },
       {
         "uid": "5",
-        "title": "5. La mesure du corps"
+        "title": "5. Tableaux de capitaines"
       },
       {
         "uid": "6",
-        "title": "6. „Si ça ne fait pas mal, ça ne sert à rien!“ — Gymnastique et premiers appareils de musculation"
+        "title": "6. Les techniques de plongée au XIXème siècle"
       },
       {
         "uid": "7",
-        "title": "7. Les joies des leçons de natation"
+        "title": "7. L’expédition Valdivia"
       },
       {
         "uid": "8",
-        "title": "8. „J’ai vu ma mort“"
+        "title": "8. L’expédition Franklin"
       },
       {
         "uid": "9",
-        "title": "9. C’est sain, l’électrification !"
+        "title": "9. L’expédition de Shackleton en 1914/Photographies de Frank Hurley"
       },
       {
         "uid": "10",
-        "title": "10. L’artiste et le corps optimisé"
-      },
-      {
-        "uid": "10a",
-        "title": "10a. Christian Adam Landenberger"
-      },
-      {
-        "uid": "10b",
-        "title": "10b. Karl Albiker"
-      },
-      {
-        "uid": "10c",
-        "title": "10c. Sascha Schneider — Hohes Sinnen ou médidation hautaine"
-      },
-      {
-        "uid": "10d",
-        "title": "10d. Ludwig von Hofmann"
+        "title": "Le naufrage du Lady Burgess devant les îles du Cap Vert en 1806"
       },
       {
         "uid": "11",
-        "title": "11. Technologie et sexualité "
+        "title": "11. Le premier câble de communications transatlantique"
       },
       {
         "uid": "12",
-        "title": "12. Le monstre de Frankenstein "
+        "title": "12. L’émigration au XIXème siècle"
+      },
+      {
+        "uid": "13",
+        "title": "13. Les bateaux à vapeur rapides"
+      },
+      {
+        "uid": "14",
+        "title": "14. Le capitaine Cüppers "
+      },
+      {
+        "uid": "15",
+        "title": "15. Le Titanic"
       }
     ]
   },
@@ -155,63 +147,59 @@
       },
       {
         "uid": "2",
-        "title": "2. The Bathroom — A Place of Beauty Care and Relaxation"
+        "title": "2. Whaling"
       },
       {
         "uid": "3",
-        "title": "3. Doctors, Healers and Prophets "
+        "title": "3. Scrimshaws"
       },
       {
         "uid": "4",
-        "title": "4. Seaside Resorts and Spa Towns"
+        "title": "4. Shipwreck and Beachcombing (Andreas Achenbach)"
       },
       {
         "uid": "5",
-        "title": "5. Measuring the Body"
+        "title": "5. Captain’s Portraits"
       },
       {
         "uid": "6",
-        "title": "6. “No pain no gain!” — Gymnastics and the First Workout Equipment"
+        "title": "6. Diving Technology in the 19th Century"
       },
       {
         "uid": "7",
-        "title": "7. The Joys of Swimming Lessons"
+        "title": "7. The Valdivia expedition 1898/99 "
       },
       {
         "uid": "8",
-        "title": "8. “I have seen my death”"
+        "title": "8. The Arctic Expedition of John Franklin 1845"
       },
       {
         "uid": "9",
-        "title": "9. Electrotherapy is healthy!"
+        "title": "9. The Shackleton Expedition 1914 and the Photographs by Frank Hurley"
       },
       {
         "uid": "10",
-        "title": "10. Artists and the Optimized Body "
-      },
-      {
-        "uid": "10a",
-        "title": "10a. Christian Adam Landenberger"
-      },
-      {
-        "uid": "10b",
-        "title": "10b. Karl Albiker"
-      },
-      {
-        "uid": "10c",
-        "title": "10c. Sascha Schneider — Hohes Sinnen"
-      },
-      {
-        "uid": "10d",
-        "title": "10d. Ludwig von Hofmann "
+        "title": "10. The Sinking of the “Lady Burgess” near the Cape Verde Islands 1806"
       },
       {
         "uid": "11",
-        "title": "11.Technology and Sexuality "
+        "title": "11. The First Transatlantic Cable 1866"
       },
       {
         "uid": "12",
-        "title": "12. Frankenstein‘s Monster "
+        "title": "12. Emigration to America"
+      },
+      {
+        "uid": "13",
+        "title": "13. Ocean liners (Schnelldampfer)"
+      },
+      {
+        "uid": "14",
+        "title": "14. Captain Cüppers"
+      },
+      {
+        "uid": "15",
+        "title": "15. Titanic"
       }
     ]
   }
