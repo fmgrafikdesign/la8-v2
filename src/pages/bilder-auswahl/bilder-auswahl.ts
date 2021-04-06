@@ -6,7 +6,6 @@ import {Http} from "@angular/http";
 import 'rxjs/add/operator/map';
 
 // Import image caching
-import {IonicImageLoader} from "ionic-image-loader";
 
 // Import bilder-single Page
 import {BilderSinglePage} from '../bilder-single/bilder-single';

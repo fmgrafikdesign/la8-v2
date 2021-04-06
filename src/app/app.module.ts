@@ -1,20 +1,32 @@
-import { NgModule, ErrorHandler, Injectable, Injector } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule} from "@angular/http";
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from './app.component';
+import {ErrorHandler, Injectable, Injector, NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {HttpModule} from "@angular/http";
+import {IonicApp, IonicErrorHandler, IonicModule} from 'ionic-angular';
+import {MyApp} from './app.component';
 
 // Import image loader for caching
-import { IonicImageLoader } from "ionic-image-loader";
+import {IonicImageLoader} from "ionic-image-loader";
 
 // Import native audio
-import { NativeAudio } from '@ionic-native/native-audio';
+import {NativeAudio} from '@ionic-native/native-audio';
 
 // Import media, because native audio does not support web urls
-import { Media, MediaObject } from '@ionic-native/media';
+import {Media} from '@ionic-native/media';
 
 // Import inoic-audio, because media doesn't work at all. Shucks.
-import { IonicAudioModule, WebAudioProvider, CordovaMediaProvider, defaultAudioProviderFactory } from 'ionic-audio';
+import {CordovaMediaProvider, defaultAudioProviderFactory, IonicAudioModule, WebAudioProvider} from 'ionic-audio';
+// Import ionic pro features
+import {Pro} from '@ionic/pro';
+import {BilderAuswahlPage} from '../pages/bilder-auswahl/bilder-auswahl';
+import {ContactPage} from '../pages/themenauswahl/themenauswahl';
+import {HomePage} from '../pages/home/home';
+import {TabsPage} from '../pages/tabs/tabs';
+import {BilderSinglePage} from "../pages/bilder-single/bilder-single";
+//import { BilderSinglePageModule } from "../pages/bilder-single/bilder-single.module";
+import {TopicsSinglePage} from "../pages/topics-single/topics-single";
+
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
 
 /**
  * Sample custom factory function to use with ionic-audio
@@ -23,23 +35,9 @@ export function AudioProviderFactory() {
   return (window.hasOwnProperty('cordova')) ? new CordovaMediaProvider() : new WebAudioProvider();
 }
 
-// Import ionic pro features
-import { Pro } from '@ionic/pro';
-
 Pro.init('c4fb9fa4', {
   appVersion: '0.0.2'
 });
-
-import { BilderAuswahlPage } from '../pages/bilder-auswahl/bilder-auswahl';
-import { ContactPage } from '../pages/themenauswahl/themenauswahl';
-import { HomePage } from '../pages/home/home';
-import { TabsPage } from '../pages/tabs/tabs';
-import { BilderSinglePage } from "../pages/bilder-single/bilder-single";
-//import { BilderSinglePageModule } from "../pages/bilder-single/bilder-single.module";
-import { TopicsSinglePage } from "../pages/topics-single/topics-single";
-
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
 
 // Ionic error handling
 @Injectable()

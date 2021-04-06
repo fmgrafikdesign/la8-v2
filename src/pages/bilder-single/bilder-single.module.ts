@@ -1,6 +1,7 @@
-import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import {NgModule} from '@angular/core';
+import {IonicPageModule} from 'ionic-angular';
 import {BilderSinglePage} from "./bilder-single";
+
 //import { BilderSinglePage } from './bilder-single';
 
 @NgModule({

@@ -1,9 +1,8 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {IonicPage, NavController, NavParams} from 'ionic-angular';
 
 // Import media
-import { AudioProviderFactory } from "../../app/app.module";
-import {AudioProvider, WebAudioTrack} from "ionic-audio";
+import {AudioProvider} from "ionic-audio";
 
 /**
  * Generated class for the TopicsSinglePage page.

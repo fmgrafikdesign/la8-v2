@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
-import { BilderAuswahlPage } from '../bilder-auswahl/bilder-auswahl';
-import { ContactPage } from '../themenauswahl/themenauswahl';
-import { HomePage } from '../home/home';
+import {BilderAuswahlPage} from '../bilder-auswahl/bilder-auswahl';
+import {ContactPage} from '../themenauswahl/themenauswahl';
+import {HomePage} from '../home/home';
 
 @Component({
   templateUrl: 'tabs.html'

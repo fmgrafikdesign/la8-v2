@@ -2,8 +2,7 @@ import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 
 // Import media
-import { AudioProviderFactory } from "../../app/app.module";
-import {AudioProvider, WebAudioTrack} from "ionic-audio";
+import {AudioProvider} from "ionic-audio";
 
 @Component({
   selector: 'page-home',

@@ -3,13 +3,10 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
 
 // Import native audio
 //import {NativeAudio} from "@ionic-native/native-audio";
-
 // Import media
 //import { Media, MediaObject } from "@ionic-native/media";
-
 // Import media
-import { AudioProviderFactory } from "../../app/app.module";
-import {AudioProvider, WebAudioTrack} from "ionic-audio";
+import {AudioProvider} from "ionic-audio";
 
 /**
  * Generated class for the BilderSinglePage page.
